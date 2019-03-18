@@ -102,7 +102,8 @@ Post.count
  => 4
 clickbait = Category.find_by(name: "Motivation")
  => #<Category id: 1, ...>
-clickbait.posts.count
+
+
  => 3
 ```
 
